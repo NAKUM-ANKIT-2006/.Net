@@ -27,5 +27,4 @@ namespace CE_BTECH
             Console.Read();
         }
     }
-
 }
