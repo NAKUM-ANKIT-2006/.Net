@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
+﻿//Write a Program which accepts no from the user and print the same in words.
+//INPUT: 98732
+//OUTPUT: Nine Eight Seven Three Two
+
+using System;
 
 namespace CE_BTECH
 {

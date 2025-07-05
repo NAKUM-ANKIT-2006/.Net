@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//earrange the given code to correct the program. The resultant program will be to input a number and print whether the given
+//number is odd or even.
+
+using System;
 
 namespace CE_BTECH
 {

@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Write a Program to convert given name in toggle case.
+//INPUT: JoHn F kEnNedy
+//OUTPUT: jOhN f KeNneDY
+
+using System;
 
 namespace CE_BTECH
 {

@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Write a Program which accepts name and gender from the user. Here, gender may have only 1 character, M or F.
+//Based on the gender prefix the name Mr. & Ms.
+//NAME : Hillary Clinton
+//GENDER : F
+
+using System;
 
 namespace CE_BTECH
 {

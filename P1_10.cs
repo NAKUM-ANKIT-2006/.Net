@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Write a Program which accepts mobile no as a string from the user and converts the last 5 digits into X.
+//INPUT: 1234567890
+//OUTPUT: 12345XXXXX
+
+using System;
+
 
 namespace CE_BTECH
 {

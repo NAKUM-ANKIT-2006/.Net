@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Find out whether the given number is odd or even/
+
+using System;
 
 namespace CE_BTECH
 {

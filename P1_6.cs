@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// : Write missing statement to get the desired output.
+
+
+using System;
 
 namespace CE_BTECH
 {

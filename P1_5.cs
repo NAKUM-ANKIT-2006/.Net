@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Write output of the program. Also write comment for each line for the following code.
+
+using System;
 
 namespace CE_BTECH
 {

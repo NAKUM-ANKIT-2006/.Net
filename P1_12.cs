@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Write a Program which accepts name from the user and prints the same
+//INPUT : Winston Churchill
+//OUTPUT: Winston Churchill
+
+using System;
 
 namespace CE_BTECH
 {

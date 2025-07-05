@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Write a Program to prints the following series
+//0 1 1 2 3 5 8 13 21 34 55
+
+using System;
 
 namespace CE_BTECH
 {
