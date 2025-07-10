@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CE_BTECH.P1_18</StartupObject>
+    <StartupObject>CE_BTECH.P1_14</StartupObject>
   </PropertyGroup>
 
 </Project>
