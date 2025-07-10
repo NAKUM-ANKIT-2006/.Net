@@ -10,56 +10,62 @@ namespace CE_BTECH
     {
         public static void Main(String[] args)
         {
-            string s = "";
-            Console.WriteLine("Enter a number :");
+            string[] s = new string[100];
+            int digit;
+            int index = 0;
+
+            Console.Write("Enter the number : ");
             int no = Convert.ToInt32(Console.ReadLine());
 
             while (no != 0)
             {
-                int digit = no % 10;
-                if (digit == 0)
+                digit = no % 10;
+                switch (digit)
                 {
-                    s += "Zero ";
-                }
-                else if (digit == 1)
-                {
-                    s += "One ";
-                }
-                else if (digit == 2)
-                {
-                    s += "Two ";
-                }
-                else if (digit == 3)
-                {
-                    s += "Three ";
-                }
-                else if (digit == 4)
-                {
-                    s += "Four ";
-                }
-                else if (digit == 5)
-                {
-                    s += "Five ";
-                }
-                else if (digit == 6)
-                {
-                    s += "Six ";
-                }
-                else if (digit == 7)
-                {
-                    s += "Seven ";
-                }
-                else if (digit == 8)
-                {
-                    s += "Eight ";
-                }
-                else if (digit == 9)
-                {
-                    s += "Nine ";
+                    case 0:
+                        s[index++] = "Zero";
+                        break;
+                    case 1:
+                        s[index++] = "One";
+                        break;
+                    case 2:
+                        s[index++] = "Two";
+                        break;
+                    case 3:
+                        s[index++] = "Three";
+                        break;
+                    case 4:
+                        s[index++] = "Four";
+                        break;
+                    case 5:
+                        s[index++] = "Five";
+                        break;
+                    case 6:
+                        s[index++] = "Six";
+                        break;
+                    case 7:
+                        s[index++] = "Seven";
+                        break;
+                    case 8:
+                        s[index++] = "Eight";
+                        break;
+                    case 9:
+                        s[index++] = "Nine";
+                        break;
+                    default:
+                        Console.WriteLine("Invalid");
+                        break;
                 }
                 no = no / 10;
             }
-            Console.WriteLine(s);
+
+
+            Console.Write("In words: ");
+            for (int i = index - 1; i >= 0; i--)
+            {
+                Console.Write(s[i] + " ");
+            }
+            Console.Read();
         }
     }
 }
