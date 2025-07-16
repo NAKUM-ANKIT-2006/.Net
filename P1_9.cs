@@ -8,16 +8,24 @@ namespace CE_BTECH
 {
     internal class P1_9
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Enter a name:");
-            string name = Console.ReadLine();
+            Console.Write("Enter your name: ");
+            string input = Console.ReadLine();
+            string newinput = "";
 
-            string lowername = name.ToLower();
+            foreach (char ch in input)
+            {
+                if (char.IsUpper(ch))
+                    newinput += char.ToLower(ch);
+                else if (char.IsLower(ch))
+                    newinput += char.ToUpper(ch);
+                else
+                    newinput += ch;
+            }
 
-            Console.WriteLine("OUTPUT: " + lowername);
-
-            Console.ReadLine();
+            Console.WriteLine("OUTPUT: " + newinput);
+            Console.Read();
         }
     }
 }

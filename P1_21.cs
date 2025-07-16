@@ -14,24 +14,32 @@ namespace CE_BTECH
 {
     internal class P1_21
     {
-        public static void Main(string[] args)
+        public static void Main(String[] args)
         {
-            Console.Write("Input number of terms: ");
-            int terms = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the number of terms : ");
+            int term = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Input number: ");
-            int num = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter number : ");
+            int no = Convert.ToInt32(Console.ReadLine());
 
-            int sum = num;
-            int old = num;
+            int current = 0;
+            int sum = 0;
 
-            for (int i = 0; i < terms - 1; i++)
+            for (int i = 1; i <= term; i++)
             {
-                old = old * 10 + num; // Generate the next term
-                sum += old;
-            }
+                current = current * 10 + no;
+                Console.Write(current);
 
-            Console.WriteLine("The Sum is: " + sum);
+                if (i != term)
+                {
+                    Console.Write(" + ");
+                }
+                sum += current;
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("The Sum is : {0}", sum);
+            Console.Read();
         }
     }
 }
